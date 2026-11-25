@@ -1,0 +1,24 @@
+@import "navbar.css";
+@import "projects.css";
+@import "profile.css";
+
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(61, 151, 186, 1) 0%,
+        rgba(87, 199, 186, 1) 70%,
+        rgb(83, 237, 227) 100%
+    );
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.profile-container{
+    flex: 1;
+}
